@@ -9,6 +9,7 @@ class LoginView extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         body: LoginViewBody(),
         bottomSheet: CustomBottomContainer(),
       ),
