@@ -11,7 +11,7 @@ class LoginViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SingleChildScrollView(
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           CustomImageContainer(),
           CustomText(),
